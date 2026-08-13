@@ -404,7 +404,7 @@ export function DishProvider({ children }) {
     })
   }, [])
 
-  const [isFavorite, setIsFavorite] = useCallback((dishId) => {
+  const isFavorite = useCallback((dishId) => {
     return favorites.includes(Number(dishId))
   }, [favorites])
 
