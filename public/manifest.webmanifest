@@ -1,0 +1,19 @@
+{
+  "name": "猪猪小饭桌",
+  "short_name": "小饭桌",
+  "description": "家里的温暖小饭桌——大王喜欢吃什么菜，这里全都有",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#EFE7D6",
+  "theme_color": "#7C9A86",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "/app-icon.png",
+      "sizes": "180x180",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

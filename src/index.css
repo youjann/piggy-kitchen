@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  /* 中国风 · 素雅 配色体系 */
+  --color-primary: #7C9A86;            /* 青瓷 · 主调 */
+  --color-primary-dark: #6E8B74;       /* 竹青 */
+  --color-secondary-green: #94A892;    /* 浅苔 */
+  --color-secondary-green-dark: #7C9079;
+  --color-accent-fire: #B08A7D;        /* 赭石 · 暖调点缀 */
+  --color-accent-calorie: #C2A18E;     /* 藕荷 */
+  --color-bg-primary: #F4EEE1;         /* 宣纸 */
+  --color-bg-screen: #EFE7D6;          /* 茶褐底 */
+  --color-surface-card: #FBF7EE;       /* 素白纸面 */
+  --color-text-primary: #3E3A35;       /* 墨色 */
+  --color-text-secondary: #8A8178;     /* 淡墨 */
+  --color-border-light: #E5DCCB;       /* 纸边 */
+  --color-tag-green-bg: #E9F0E7;
+  --color-tag-green-text: #4E7A52;
+  --color-orange-accent: #B07A5E;      /* 赭 · 替代原橙 */
+}
+
+@layer base {
+  html, body {
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    font-family: "Source Han Serif CN", "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+    background-color: var(--color-bg-screen);
+    color: var(--color-text-primary);
+  }
+
+  #root {
+    min-height: 100%;
+  }
+
+  /* 标题轻微字距，更显素雅 */
+  h1, h2, h3 {
+    letter-spacing: 0.02em;
+  }
+
+  .font-primary {
+    font-family: "Source Han Serif CN", "Noto Serif SC", "Songti SC", "STSong", "SimSun", serif;
+  }
+}
+
+/* 宣纸细纹理：极淡的纵向渐变，营造纸质感而不抢戏 */
+.paper-grain {
+  background-image:
+    radial-gradient(circle at 20% 0%, rgba(255, 255, 255, 0.5) 0%, transparent 55%),
+    radial-gradient(circle at 100% 100%, rgba(124, 154, 134, 0.06) 0%, transparent 50%);
+}
+
+/* 弹窗上滑入场 */
+@keyframes dialogSlideUp {
+  from { transform: translateY(100%); opacity: 0.6; }
+  to { transform: translateY(0); opacity: 1; }
+}
+.animate-slide-up {
+  animation: dialogSlideUp 0.22s ease-out;
+}

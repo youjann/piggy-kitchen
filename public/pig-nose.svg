@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" fill="none">
+  <!-- 背景：宣纸暖底圆角方 -->
+  <rect x="0" y="0" width="180" height="180" rx="40" fill="#F4EEE1"/>
+  <!-- 淡粉光晕 -->
+  <circle cx="90" cy="86" r="62" fill="#F6D9DC" opacity="0.55"/>
+  <!-- 小猪鼻子主体（浅粉椭圆） -->
+  <ellipse cx="90" cy="88" rx="52" ry="40" fill="#F0A3AE"/>
+  <!-- 鼻子轮廓线 -->
+  <ellipse cx="90" cy="88" rx="52" ry="40" stroke="#D97B8A" stroke-width="4" fill="none"/>
+  <!-- 左鼻孔 -->
+  <ellipse cx="74" cy="94" rx="13" ry="15" fill="#C95F72"/>
+  <!-- 右鼻孔 -->
+  <ellipse cx="106" cy="94" rx="13" ry="15" fill="#C95F72"/>
+  <!-- 鼻孔内高光 -->
+  <ellipse cx="77" cy="90" rx="4.5" ry="5" fill="#E98A9C" opacity="0.8"/>
+  <ellipse cx="109" cy="90" rx="4.5" ry="5" fill="#E98A9C" opacity="0.8"/>
+  <!-- 顶部高光 -->
+  <ellipse cx="78" cy="62" rx="18" ry="7" fill="#FBC6CE" opacity="0.9"/>
+  <!-- 两颊红晕 -->
+  <circle cx="38" cy="112" r="10" fill="#EFB4A0" opacity="0.55"/>
+  <circle cx="142" cy="112" r="10" fill="#EFB4A0" opacity="0.55"/>
+</svg>
